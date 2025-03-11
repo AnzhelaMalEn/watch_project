@@ -1,12 +1,102 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="anzhela">
     <title>Головна сторінка</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
-    <h1>Головна сторінка</h1>
+    <header class="header">
+        <!-- Фонове зображення -->
+        <img src="photo/CBS2015.EB0381_12.webp" alt="Фон" class="header-big-photo">
+
+        <!-- Логотип -->
+        <div class="logo">
+            <img src="photo/logo timepulse.png" alt="Логотип">
+        </div>
+
+        <!-- Меню навігації -->
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="about.html">Про нас</a></li>
+                <li><a href="brands.html">Бренди</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="whole-page">
+        <div class="welcome_text">
+            <h1>Ласкаво просимо на наш сайт!</h1>
+        </div>
+        <div class="main_text">
+            <h1 id="TimePulse">
+                <font size="6" color="darkblue"><b>Ласкаво просимо до TimePulse!</b></font>
+            </h1>
+            <p>
+                <font size="4" color="#333"><b>TimePulse</b> — це не просто магазин годинників, це місце, де кожен
+                    момент має значення.</font>
+            </p>
+            <p>
+                <font size="4" color="#333">Історія нашого бренду почалася <i>
+                        <font color="darkred">більше 10 років тому</font>
+                    </i>, коли ми вирішили об'єднати якість, стиль і технології у світі годинників. Від класики до
+                    інновацій, від традицій до найсучасніших тенденцій — ми пропонуємо годинники для кожного, хто цінує
+                    час.</font>
+            </p>
+            <p>
+                <font size="4" color="#333">Кожен годинник у нашому асортименті — це не просто аксесуар, а частина
+                    особистої історії. Ми співпрацюємо з найкращими світовими брендами, щоб гарантувати найвищу якість
+                    кожного виробу.</font>
+            </p>
+            <p>
+                <font size="4" color="#333"><i>
+                        <font color="darkred">Місія TimePulse</font>
+                    </i> — допомогти вам знайти ідеальний годинник, який буде не лише показником часу, а й символом
+                    вашого стилю та статусу.</font>
+            </p>
+            <p>
+                <font size="5" color="#333"><b>Приєднуйтесь до світу точності, стилю та бездоганної якості разом із
+                        TimePulse!</b></font>
+            </p>
+        </div>
+
+        <h2>Наші годинники</h2>
+
+        <!-- Зменшене зображення у 2 рази -->
+        <a href="photo/man.jpg" target="_blank">
+            <img src="photo/man.jpg" width="200" height="200" alt="Чоловік">
+        </a>
+
+        <!-- Збільшене зображення у 2 рази -->
+        <a href="photo/woman.jpg" target="_blank">
+            <img src="photo/woman.jpg" width="800" height="800" alt="Жінка">
+        </a>
+
+        <!-- Карта(плаваючий фрейм) -->
+        <h2>Ми на карті</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25388.119990485375!2d30.5052025!3d50.45003325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf105923aeb3%3A0xabc123456789!2z0JrRgNCw0YHQv9C10LrRgiDQlNC-0L3QsNGPINGD0YHRgtGA0L7QstCw0Y8g0YPQu9C40YbRjywg0LrQvtC70LTQsCwg0LrQvtC70LTQsNCy0YHRjNC60LAsIDEwMDAw!5e0!3m2!1suk!2sua!4v1633951894869!5m2!1suk!2sua"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+
+    </main>
+
+    <footer>
+        <div class="footer_text">
+            <p>Ми спеціалізуємось на продажу якісних годинників від відомих світових брендів.</p>
+            <p>Детальніше про жіночі годинники ви можете дізнатися <a href="brands.html#womans-watches">тут</a>.</p>
+            <p>Ласкаво просимо до <a href="#TimePulse">TimePulse!</a>.</p>
+            <p>Перегляньте <a href="https://www.rolex.com/watches" target="_blank">офіційний сайт Rolex</a> для нових
+                моделей.</p>
+        </div>
+    </footer>
 </body>
+
 </html>

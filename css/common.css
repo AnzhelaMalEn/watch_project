@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Хедер-------------------------------------- початок */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+/* Фонове зображення */
+.header-big-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Заповнює всю область */
+    z-index: -1; /* Відправляє фон під інші елементи */
+}
+
+/* Лого */
+.logo img {
+    height: 60px;
+}
+
+/* Навігація */
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Відстань між пунктами меню */
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li {
+    display: inline;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(189, 228, 244);
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+    color: #007BFF;
+}
