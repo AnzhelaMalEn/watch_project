@@ -1,13 +1,42 @@
-body, html {
-    margin: 0;
-    padding: 0;
+body {
     font-family: Arial, sans-serif;
-}
-
-.main_text {
-
-    margin-top: 750px;
-}
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .main_text {
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 270px;
+  }
+  
+  .title {
+    font-size: 36px;
+    color: darkblue;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .highlight {
+    color: darkred;
+  }
+  
+  .slogan {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+  }
 
 
 /* Стиль для заголовка таблиці----------------------------------------- */
@@ -88,6 +117,21 @@ dd {
 .watch-table td {
     padding: 10px;
     border: 1px solid #ddd;
+}
+
+/* Ширина колонок у таблиці жіночих годинників */
+.col-25 {
+    width: 25%;
+}
+
+/* Зовнішній відступ між клітинками таблиці та внутрішній відступ */
+.watch-table.spacing {
+    border-spacing: 5px;
+}
+
+.watch-table.spacing td,
+.watch-table.spacing th {
+    padding: 10px;
 }
 
 /* Стилізація для комірок із посиланнями----------------------------------------- */

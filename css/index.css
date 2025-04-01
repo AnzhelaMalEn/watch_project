@@ -1,30 +1,107 @@
-body, html {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-}
+    background-color: #f9f9f9;
+    color: #333;
+  }
 
 /* хедер -------------------------------------------------------- початок */
 .welcome_text{
-    margin-top:350px;
+    margin-top:250px;
     text-align: center;
     color: rgb(189, 228, 244);
     font-size: 45px;
+    margin-bottom: 300px;
 
 }
 /* хедер -------------------------------------------------------- кінець */
 
 
 
-/* текст для головної частини -------------------------------------------------------- початок */
+/* бокс та текст для головної частини -------------------------------------------------------- початок */
 
 .main_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .content_box {
+    background-color: rgb(189, 228, 244);
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 600px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 
-    margin-top: 300px;
-}
+  }
+  
+  .title {
+    font-size: 36px;
+    color: darkblue;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .highlight {
+    color: darkred;
+  }
+  
+  .slogan {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 30px;
+  }
 
 
 /* текст для головної частини -------------------------------------------------------- кінець */
+
+/* Зменшене зображення */
+.img-small {
+  width: 200px;
+  height: 200px;
+}
+
+/* Збільшене зображення */
+.img-large {
+  width: 800px;
+  height: 800px;
+}
+
+.mu-na-karti,
+.nashi-goddyniky{
+  margin-top: 100px;
+  text-align: center;
+  color: brown;
+}
+
+.nashi-goddyniky{
+  margin-bottom: 50px;
+}
+
+/* Контейнер для карти з тінню та рамкою */
+.map-container {
+  max-width: 900px;
+  margin: 50px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  border: 3px solid #bde4f4;
+}
+
+/* Сама карта */
+.map-frame {
+  width: 100%;
+  height: 450px;
+  border: none;
+  display: block;
+}
 
 
 

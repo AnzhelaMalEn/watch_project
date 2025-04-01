@@ -1,10 +1,46 @@
-body, html {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-}
-
-.main_text {
-
-    margin-top: 750px;
-}
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .main_text {
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    max-width: 1000px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 36px;
+    color: darkblue;
+    font-weight: bold;
+  }
+  
+  .question {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .answer {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .highlight {
+    color: darkred;
+  }
+  
+  .slogan {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  
