@@ -34,4 +34,10 @@ body {
     font-weight: bold;
     color: #333;
   }
+
+  .main_text > h1 {
+    border-bottom: 2px solid #4c57af;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+  }
   

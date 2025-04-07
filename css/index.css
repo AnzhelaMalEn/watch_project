@@ -112,3 +112,25 @@ body {
     background-color: rgb(189, 228, 244);
 }
 
+/* Контекстний селектор */
+footer a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+
+#TimePulse{
+  color: black;
+}
+
+/* Сусідній селектор */
+.main_text + h2 {
+  text-decoration:underline;
+  text-transform: uppercase;
+}
+
+/* Дочірній селектор */
+.content_box > h1 {
+  letter-spacing: -3px;
+}
+
