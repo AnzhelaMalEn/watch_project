@@ -66,3 +66,11 @@ body {
   border-radius: 5px;
   margin-bottom: 20px;
 }
+
+.question::before {
+  content: "❓";
+  margin-right: 8px;
+  color: #1c36c8;
+  font-weight: bold;
+  font-size: 20px;
+}

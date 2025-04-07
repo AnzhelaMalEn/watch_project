@@ -134,6 +134,12 @@ dd {
     padding: 10px;
 }
 
+.watch-table tr:first-child th {
+    background-color: #1c36c8;
+    font-size: 20px;
+  }
+  
+
 /* Стилізація для комірок із посиланнями----------------------------------------- */
 .link-cell a {
     display: block;
